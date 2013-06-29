@@ -1,6 +1,6 @@
 //
 //  PAPEditPhotoViewController.m
-//  Anypic
+//  ShotsCity
 //
 //  Created by Héctor Ramos on 5/3/12.
 //
@@ -141,7 +141,7 @@
         [[UIApplication sharedApplication] endBackgroundTask:self.fileUploadBackgroundTaskId];
     }];
     
-    NSLog(@"Requested background expiration task with id %d for Anypic photo upload", self.fileUploadBackgroundTaskId);
+    NSLog(@"Requested background expiration task with id %d for ShotsCity photo upload", self.fileUploadBackgroundTaskId);
     [self.photoFile saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
         if (succeeded) {
             NSLog(@"Photo uploaded successfully");

@@ -1,6 +1,6 @@
 //
 //  PAPActivityFeedViewController.h
-//  Anypic
+//  ShotsCity
 //
 //  Created by Mattieu Gamache-Asselin on 5/9/12.
 //

@@ -1,6 +1,6 @@
 //
 //  PAPPhotoTimelineViewController.m
-//  Anypic
+//  ShotsCity
 //
 //  Created by Héctor Ramos on 5/2/12.
 //

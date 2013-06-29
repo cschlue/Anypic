@@ -1,6 +1,6 @@
 //
 //  PAPFindFriendsCell.h
-//  Anypic
+//  ShotsCity
 //
 //  Created by Mattieu Gamache-Asselin on 5/31/12.
 //

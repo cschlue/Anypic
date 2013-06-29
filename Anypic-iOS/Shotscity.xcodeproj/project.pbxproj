@@ -17,6 +17,12 @@
 		09ABC07613A1D52D009C3FCF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09ABC07513A1D52D009C3FCF /* CoreGraphics.framework */; };
 		09BEF34C13D51C3F001BBCDB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09BEF34B13D51C3F001BBCDB /* Security.framework */; };
 		2FCDD6B014A573F500295AAC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FCDD6AF14A573F500295AAC /* QuartzCore.framework */; };
+		529DEC4C17792FB400EDE5B9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 529DEC4B17792FB400EDE5B9 /* Default@2x.png */; };
+		529DEC4F17792FE200EDE5B9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 529DEC4E17792FE200EDE5B9 /* Default.png */; };
+		52AFDEEF17792C1B00091438 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52AFDEEB17792C1B00091438 /* libTestFlight.a */; };
+		52AFDEF017792C1B00091438 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 52AFDEEC17792C1B00091438 /* README.md */; };
+		52AFDEF117792C1B00091438 /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = 52AFDEED17792C1B00091438 /* release_notes.md */; };
+		52AFDEF317792E2B00091438 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52AFDEF217792E2B00091438 /* Default-568h@2x.png */; };
 		74636BF31578281E00B44132 /* PAPFindFriendsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 74636BF21578281E00B44132 /* PAPFindFriendsCell.m */; };
 		747FC485156FFF74003349E1 /* PAPConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 747FC484156FFF74003349E1 /* PAPConstants.m */; };
 		74B108A7156D7509005B421C /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B108A6156D7509005B421C /* AddressBookUI.framework */; };
@@ -196,6 +202,13 @@
 		09ABC07513A1D52D009C3FCF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		09BEF34B13D51C3F001BBCDB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		2FCDD6AF14A573F500295AAC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		529DEC4B17792FB400EDE5B9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		529DEC4E17792FE200EDE5B9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		52AFDEEB17792C1B00091438 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
+		52AFDEEC17792C1B00091438 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		52AFDEED17792C1B00091438 /* release_notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.md; sourceTree = "<group>"; };
+		52AFDEEE17792C1B00091438 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
+		52AFDEF217792E2B00091438 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		74636BF11578281E00B44132 /* PAPFindFriendsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = PAPFindFriendsCell.h; path = AnyPic/PAPFindFriendsCell.h; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		74636BF21578281E00B44132 /* PAPFindFriendsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = PAPFindFriendsCell.m; path = AnyPic/PAPFindFriendsCell.m; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		747FC484156FFF74003349E1 /* PAPConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PAPConstants.m; path = AnyPic/PAPConstants.m; sourceTree = SOURCE_ROOT; };
@@ -423,6 +436,7 @@
 				09ABC07213A1D52D009C3FCF /* UIKit.framework in Frameworks */,
 				09ABC07413A1D52D009C3FCF /* Foundation.framework in Frameworks */,
 				C499A3021725E6C70089D40A /* FacebookSDK.framework in Frameworks */,
+				52AFDEEF17792C1B00091438 /* libTestFlight.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +446,10 @@
 		09ABC06213A1D52D009C3FCF = {
 			isa = PBXGroup;
 			children = (
+				529DEC4E17792FE200EDE5B9 /* Default.png */,
+				529DEC4B17792FB400EDE5B9 /* Default@2x.png */,
+				52AFDEF217792E2B00091438 /* Default-568h@2x.png */,
+				52AFDEEA17792C1B00091438 /* TestFlightSDK1.2.6 */,
 				09ABC07713A1D52D009C3FCF /* Anypic */,
 				C4A0B4FF156C5B9F00E48554 /* External */,
 				09ABC07013A1D52D009C3FCF /* Frameworks */,
@@ -505,6 +523,17 @@
 				C4F102DF156C58440061BC3E /* Entitlements.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52AFDEEA17792C1B00091438 /* TestFlightSDK1.2.6 */ = {
+			isa = PBXGroup;
+			children = (
+				52AFDEEB17792C1B00091438 /* libTestFlight.a */,
+				52AFDEEC17792C1B00091438 /* README.md */,
+				52AFDEED17792C1B00091438 /* release_notes.md */,
+				52AFDEEE17792C1B00091438 /* TestFlight.h */,
+			);
+			path = TestFlightSDK1.2.6;
 			sourceTree = "<group>";
 		};
 		7460D3AD1565557A00F755E4 /* Assets */ = {
@@ -1001,6 +1030,11 @@
 				C4DE99CC1603D11600BC968A /* Default-fbFACEBOOK_APP_ID.png in Resources */,
 				C4DE99CD1603D11600BC968A /* Default-fbFACEBOOK_APP_ID@2x.png in Resources */,
 				C499A3041725E6DD0089D40A /* FacebookSDKResources.bundle in Resources */,
+				52AFDEF017792C1B00091438 /* README.md in Resources */,
+				52AFDEF117792C1B00091438 /* release_notes.md in Resources */,
+				52AFDEF317792E2B00091438 /* Default-568h@2x.png in Resources */,
+				529DEC4C17792FB400EDE5B9 /* Default@2x.png in Resources */,
+				529DEC4F17792FE200EDE5B9 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1110,7 +1144,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: patrick gadient (X9BNGH5843)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1126,9 +1160,12 @@
 				);
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Info.plist;
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TestFlightSDK1.2.6\"",
+				);
 				PRODUCT_NAME = Shotscity;
-				PROVISIONING_PROFILE = "9B237926-F42F-4A06-9B4D-0258323EFD18";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1139,7 +1176,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: patrick gadient (X9BNGH5843)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: patrick gadient (X9BNGH5843)";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1155,9 +1192,12 @@
 				GCC_PREFIX_HEADER = Prefix.pch;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Info.plist;
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TestFlightSDK1.2.6\"",
+				);
 				PRODUCT_NAME = Shotscity;
-				PROVISIONING_PROFILE = "9B237926-F42F-4A06-9B4D-0258323EFD18";
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9B237926-F42F-4A06-9B4D-0258323EFD18";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
@@ -1191,7 +1231,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: patrick gadient (X9BNGH5843)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: patrick gadient (X9BNGH5843)";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1208,9 +1248,12 @@
 				GCC_PREPROCESSOR_DEFINITIONS = TESTING;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Info.plist;
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TestFlightSDK1.2.6\"",
+				);
 				PRODUCT_NAME = Shotscity;
-				PROVISIONING_PROFILE = "9B237926-F42F-4A06-9B4D-0258323EFD18";
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9B237926-F42F-4A06-9B4D-0258323EFD18";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
@@ -1244,7 +1287,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: patrick gadient (X9BNGH5843)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: patrick gadient (X9BNGH5843)";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1261,9 +1304,12 @@
 				GCC_PREPROCESSOR_DEFINITIONS = TESTING;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Info.plist;
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TestFlightSDK1.2.6\"",
+				);
 				PRODUCT_NAME = Shotscity;
-				PROVISIONING_PROFILE = "9B237926-F42F-4A06-9B4D-0258323EFD18";
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9B237926-F42F-4A06-9B4D-0258323EFD18";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;

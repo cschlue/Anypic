@@ -1,6 +1,6 @@
 //
 //  PAPConstants.h
-//  Anypic
+//  ShotsCity
 //
 //  Created by Mattieu Gamache-Asselin on 5/25/12.
 //

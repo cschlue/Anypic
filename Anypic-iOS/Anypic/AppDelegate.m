@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  Anypic
+//  ShotsCity
 //
 //  Created by Héctor Ramos on 5/04/12.
 //
@@ -16,6 +16,7 @@
 #import "PAPWelcomeViewController.h"
 #import "PAPActivityFeedViewController.h"
 #import "PAPPhotoDetailsViewController.h"
+#import "TestFlight.h"
 
 @interface AppDelegate () {
     NSMutableData *_data;
@@ -61,6 +62,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    // start of your application:didFinishLaunchingWithOptions
+    
+    // !!!: Use the next line only during beta
+    [TestFlight setDeviceIdentifier:[[UIDevice currentDevice] uniqueIdentifier]];
+    
+    [TestFlight takeOff:@"e81dbea5-848e-4caf-925c-5e43e3799a19"];
+    // The rest of your application:didFinishLaunchingWithOptions method
+    // ...
+
 
     // ****************************************************************************
     // Parse initialization
@@ -484,7 +494,7 @@
                 [user setObject:@YES forKey:kPAPUserAlreadyAutoFollowedFacebookFriendsKey];
                 NSError *error = nil;
                 
-                // find common Facebook friends already using Anypic
+                // find common Facebook friends already using ShotsCity
                 PFQuery *facebookFriendsQuery = [PFUser query];
                 [facebookFriendsQuery whereKey:kPAPUserFacebookIDKey containedIn:facebookIds];
                 
@@ -495,10 +505,10 @@
                 // combined query
                 PFQuery *query = [PFQuery orQueryWithSubqueries:[NSArray arrayWithObjects:autoFollowAccountsQuery,facebookFriendsQuery, nil]];
                 
-                NSArray *anypicFriends = [query findObjects:&error];
+                NSArray *ShotsCityFriends = [query findObjects:&error];
                 
                 if (!error) {
-                    [anypicFriends enumerateObjectsUsingBlock:^(PFUser *newFriend, NSUInteger idx, BOOL *stop) {
+                    [ShotsCityFriends enumerateObjectsUsingBlock:^(PFUser *newFriend, NSUInteger idx, BOOL *stop) {
                         PFObject *joinActivity = [PFObject objectWithClassName:kPAPActivityClassKey];
                         [joinActivity setObject:user forKey:kPAPActivityFromUserKey];
                         [joinActivity setObject:newFriend forKey:kPAPActivityToUserKey];
@@ -531,7 +541,7 @@
                 
                 if (!error) {
                     [MBProgressHUD hideHUDForView:self.navController.presentedViewController.view animated:NO];
-                    if (anypicFriends.count > 0) {
+                    if (ShotsCityFriends.count > 0) {
                         self.hud = [MBProgressHUD showHUDAddedTo:self.homeViewController.view animated:NO];
                         self.hud.dimBackground = YES;
                         self.hud.labelText = NSLocalizedString(@"Following Friends", nil);

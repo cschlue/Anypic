@@ -1,6 +1,6 @@
 //
 //  PAPWelcomeViewController.h
-//  Anypic
+//  ShotsCity
 //
 //  Created by Héctor Ramos on 5/10/12.
 //

@@ -1,6 +1,6 @@
 //
 //  PAPFindFriendsViewController.m
-//  Anypic
+//  ShotsCity
 //
 //  Created by Mattieu Gamache-Asselin on 5/9/12.
 //
@@ -340,7 +340,7 @@ static NSUInteger const kPAPCellPhotoNumLabelTag = 5;
 }
 
 /* Called when the user selects a property of a person in their address book (ex. phone, email, location,...)
-   This method will allow them to send a text or email inviting them to Anypic.  */
+   This method will allow them to send a text or email inviting them to ShotsCity.  */
 - (BOOL)peoplePickerNavigationController:(ABPeoplePickerNavigationController *)peoplePicker shouldContinueAfterSelectingPerson:(ABRecordRef)person property:(ABPropertyID)property identifier:(ABMultiValueIdentifier)identifier {
 
     if (property == kABPersonEmailProperty) {
@@ -518,9 +518,9 @@ static NSUInteger const kPAPCellPhotoNumLabelTag = 5;
     
     // Set the recipient to the selected email and a default text
     [composeEmailViewController setMailComposeDelegate:self];
-    [composeEmailViewController setSubject:@"Join me on Anypic"];
+    [composeEmailViewController setSubject:@"Join me on ShotsCity"];
     [composeEmailViewController setToRecipients:[NSArray arrayWithObjects:recipient, nil]];
-    [composeEmailViewController setMessageBody:@"<h2>Share your pictures, share your story.</h2><p><a href=\"http://anypic.org\">Anypic</a> is the easiest way to share photos with your friends. Get the app and share your fun photos with the world.</p><p><a href=\"http://anypic.org\">Anypic</a> is fully powered by <a href=\"http://parse.com\">Parse</a>.</p>" isHTML:YES];
+    [composeEmailViewController setMessageBody:@"<h2>Share your pictures, share your story.</h2><p><a href=\"http://ShotsCity.org\">ShotsCity</a> is the easiest way to share photos with your friends. Get the app and share your fun photos with the world.</p><p><a href=\"http://ShotsCity.org\">ShotsCity</a> is fully powered by <a href=\"http://parse.com\">Parse</a>.</p>" isHTML:YES];
     
     // Dismiss the current modal view controller and display the compose email one.
     // Note that we do not animate them. Doing so would require us to present the compose
@@ -536,7 +536,7 @@ static NSUInteger const kPAPCellPhotoNumLabelTag = 5;
     // Send the destination phone number and a default text
     [composeTextViewController setMessageComposeDelegate:self];
     [composeTextViewController setRecipients:[NSArray arrayWithObjects:recipient, nil]];
-    [composeTextViewController setBody:@"Check out Anypic! http://anypic.org"];
+    [composeTextViewController setBody:@"Check out ShotsCity! http://ShotsCity.org"];
     
     // Dismiss the current modal view controller and display the compose text one.
     // See previous use for reason why these are not animated.

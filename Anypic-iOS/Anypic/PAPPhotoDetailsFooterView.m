@@ -1,6 +1,6 @@
 //
 //  PAPPhotoDetailsFooterView.m
-//  Anypic
+//  ShotsCity
 //
 //  Created by Mattieu Gamache-Asselin on 5/16/12.
 //

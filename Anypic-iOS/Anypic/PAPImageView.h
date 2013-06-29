@@ -1,6 +1,6 @@
 //
 //  PAPImageView.h
-//  Anypic
+//  ShotsCity
 //
 //  Created by Mattieu Gamache-Asselin on 5/14/12.
 //

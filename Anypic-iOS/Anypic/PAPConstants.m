@@ -1,14 +1,14 @@
 //
 //  PAPConstants.m
-//  Anypic
+//  ShotsCity
 //
 //  Created by Mattieu Gamache-Asselin on 5/25/12.
 //
 
 #import "PAPConstants.h"
 
-NSString *const kPAPUserDefaultsActivityFeedViewControllerLastRefreshKey    = @"com.parse.Anypic.userDefaults.activityFeedViewController.lastRefresh";
-NSString *const kPAPUserDefaultsCacheFacebookFriendsKey                     = @"com.parse.Anypic.userDefaults.cache.facebookFriends";
+NSString *const kPAPUserDefaultsActivityFeedViewControllerLastRefreshKey    = @"com.parse.ShotsCity.userDefaults.activityFeedViewController.lastRefresh";
+NSString *const kPAPUserDefaultsCacheFacebookFriendsKey                     = @"com.parse.ShotsCity.userDefaults.cache.facebookFriends";
 
 
 #pragma mark - Launch URLs
@@ -18,15 +18,15 @@ NSString *const kPAPLaunchURLHostTakePicture = @"camera";
 
 #pragma mark - NSNotification
 
-NSString *const PAPAppDelegateApplicationDidReceiveRemoteNotification           = @"com.parse.Anypic.appDelegate.applicationDidReceiveRemoteNotification";
-NSString *const PAPUtilityUserFollowingChangedNotification                      = @"com.parse.Anypic.utility.userFollowingChanged";
-NSString *const PAPUtilityUserLikedUnlikedPhotoCallbackFinishedNotification     = @"com.parse.Anypic.utility.userLikedUnlikedPhotoCallbackFinished";
-NSString *const PAPUtilityDidFinishProcessingProfilePictureNotification         = @"com.parse.Anypic.utility.didFinishProcessingProfilePictureNotification";
-NSString *const PAPTabBarControllerDidFinishEditingPhotoNotification            = @"com.parse.Anypic.tabBarController.didFinishEditingPhoto";
-NSString *const PAPTabBarControllerDidFinishImageFileUploadNotification         = @"com.parse.Anypic.tabBarController.didFinishImageFileUploadNotification";
-NSString *const PAPPhotoDetailsViewControllerUserDeletedPhotoNotification       = @"com.parse.Anypic.photoDetailsViewController.userDeletedPhoto";
-NSString *const PAPPhotoDetailsViewControllerUserLikedUnlikedPhotoNotification  = @"com.parse.Anypic.photoDetailsViewController.userLikedUnlikedPhotoInDetailsViewNotification";
-NSString *const PAPPhotoDetailsViewControllerUserCommentedOnPhotoNotification   = @"com.parse.Anypic.photoDetailsViewController.userCommentedOnPhotoInDetailsViewNotification";
+NSString *const PAPAppDelegateApplicationDidReceiveRemoteNotification           = @"com.parse.ShotsCity.appDelegate.applicationDidReceiveRemoteNotification";
+NSString *const PAPUtilityUserFollowingChangedNotification                      = @"com.parse.ShotsCity.utility.userFollowingChanged";
+NSString *const PAPUtilityUserLikedUnlikedPhotoCallbackFinishedNotification     = @"com.parse.ShotsCity.utility.userLikedUnlikedPhotoCallbackFinished";
+NSString *const PAPUtilityDidFinishProcessingProfilePictureNotification         = @"com.parse.ShotsCity.utility.didFinishProcessingProfilePictureNotification";
+NSString *const PAPTabBarControllerDidFinishEditingPhotoNotification            = @"com.parse.ShotsCity.tabBarController.didFinishEditingPhoto";
+NSString *const PAPTabBarControllerDidFinishImageFileUploadNotification         = @"com.parse.ShotsCity.tabBarController.didFinishImageFileUploadNotification";
+NSString *const PAPPhotoDetailsViewControllerUserDeletedPhotoNotification       = @"com.parse.ShotsCity.photoDetailsViewController.userDeletedPhoto";
+NSString *const PAPPhotoDetailsViewControllerUserLikedUnlikedPhotoNotification  = @"com.parse.ShotsCity.photoDetailsViewController.userLikedUnlikedPhotoInDetailsViewNotification";
+NSString *const PAPPhotoDetailsViewControllerUserCommentedOnPhotoNotification   = @"com.parse.ShotsCity.photoDetailsViewController.userCommentedOnPhotoInDetailsViewNotification";
 
 
 #pragma mark - User Info Keys

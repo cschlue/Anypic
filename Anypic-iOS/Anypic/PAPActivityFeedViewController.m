@@ -1,6 +1,6 @@
 //
 //  PAPActivityFeedViewController.m
-//  Anypic
+//  ShotsCity
 //
 //  Created by Mattieu Gamache-Asselin on 5/9/12.
 //
@@ -275,7 +275,7 @@
     } else if ([activityType isEqualToString:kPAPActivityTypeComment]) {
         return NSLocalizedString(@"commented on your photo", nil);
     } else if ([activityType isEqualToString:kPAPActivityTypeJoined]) {
-        return NSLocalizedString(@"joined Anypic", nil);
+        return NSLocalizedString(@"joined ShotsCity", nil);
     } else {
         return nil;
     }

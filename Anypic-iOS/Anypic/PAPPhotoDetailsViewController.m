@@ -1,6 +1,6 @@
 //
 //  PAPPhotoDetailViewController.m
-//  Anypic
+//  ShotsCity
 //
 //  Created by Mattieu Gamache-Asselin on 5/15/12.
 //
@@ -366,7 +366,7 @@ static const CGFloat kPAPCellInsetWidth = 20.0f;
             }
             
             [activityItems addObject:[UIImage imageWithData:data]];
-            [activityItems addObject:[NSURL URLWithString:[NSString stringWithFormat:@"https://anypic.org/#pic/%@", self.photo.objectId]]];
+            [activityItems addObject:[NSURL URLWithString:[NSString stringWithFormat:@"https://ShotsCity.org/#pic/%@", self.photo.objectId]]];
             
             UIActivityViewController *activityViewController = [[UIActivityViewController alloc] initWithActivityItems:activityItems applicationActivities:nil];
             [self.navigationController presentViewController:activityViewController animated:YES completion:nil];

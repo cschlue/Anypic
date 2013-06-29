@@ -1,6 +1,6 @@
 //
 //  PAPSettingsButtonItem.m
-//  Anypic
+//  ShotsCity
 //
 //  Created by Héctor Ramos on 5/18/12.
 //

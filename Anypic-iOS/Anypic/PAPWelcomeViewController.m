@@ -1,6 +1,6 @@
 //
 //  PAPWelcomeViewController.m
-//  Anypic
+//  ShotsCity
 //
 //  Created by Héctor Ramos on 5/10/12.
 //
@@ -26,7 +26,7 @@
         [(AppDelegate*)[[UIApplication sharedApplication] delegate] presentLoginViewControllerAnimated:NO];
         return;
     }
-    // Present Anypic UI
+    // Present ShotsCity UI
     [(AppDelegate*)[[UIApplication sharedApplication] delegate] presentTabBarController];
     
     // Refresh current user with server side data -- checks if user is still valid and so on

@@ -1,6 +1,6 @@
 //
 //  PAPPhotoCell.m
-//  Anypic
+//  ShotsCity
 //
 //  Created by Héctor Ramos on 5/3/12.
 //
